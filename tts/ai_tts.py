@@ -244,9 +244,8 @@ def initiate_proxies() -> None:
 
 if __name__ == "__main__":
     initiate_proxies()
-    while True:
-        input("Press Enter to continue...")
-        speak("Wow! Did you see that? The magician pulled a rabbit out of an empty hat! How in the world did he do that? I'm totally blown away!")
+    inp = input("Enter what you want to be said(max 5000 tokens allowed):")
+    speak(input)
     # speak("Thank you for watching! I hope you found this video informative and helpful. If you did, please give it a thumbs up and consider subscribing to my channel for more videos like this")
     # speak("Guess what? I just got the promotion I've been waiting for! I'm over the moon right now, and I can't wait to celebrate this weekend!")
     # speak("There's a storm coming, and the wind is howling like I've never heard before. I'm all alone at home, and every creak and groan of the house is making my heart race.")

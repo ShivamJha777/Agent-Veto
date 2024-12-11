@@ -266,7 +266,7 @@ def Proxy(prints: bool = False):
 
         def _check_proxy(self, proxy: str) -> bool:
             try:
-                test_url = "https://chat.typegpt.net/#/chat"
+                test_url = "https://chat100.ai/app/"
                 response = requests.get(test_url, proxies={'http': proxy, 'https': proxy}, timeout=10)
                 if response.status_code == 200:
                     with open('Working_proxies.txt', 'a') as f:
